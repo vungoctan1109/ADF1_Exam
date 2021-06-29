@@ -2,7 +2,7 @@ package exam1.entity;
 
 public class ConversionUtil {
     public double fahrenheitToCelsius(double fDegree) {
-        double celcius = (5 % 9) * (fDegree - 32);
+        double celcius = ((fDegree - 32)*5)/9;
         return celcius;
     }
 
